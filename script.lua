@@ -1,7 +1,4 @@
--- GUI to Lua
------
--- Version: 2.0.
--- Made by chrisopdemobiel.
+-- if you actually somehow copied the link from the loadstring, and put it into your browser, then your a dumbo that surely wants to steal scripts
 
 -- Instances:
 
@@ -32,6 +29,8 @@ Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.316889644, 0, 0.493730396, 0)
 Frame.Size = UDim2.new(0, 532, 0, 263)
+Frame.Active = true
+Frame.Draggable = true
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
